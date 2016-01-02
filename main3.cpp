@@ -31,7 +31,7 @@ unsigned solve (const unsigned short& n, const unsigned short& k,
 		// iterating over the number of products
 		for (auto i = 0; i < n; i++ ){
 			// where to place the last divider
-			for (auto j = 0; j <= i; j++){
+			for (auto j = 0; j < i; j++){
 				temp = data[j] + round(non_rounded_partial_sum[i]-non_rounded_partial_sum[j]);
 				if(next_data[i] > temp) {
 	    				next_data[i] = temp;
