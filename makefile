@@ -1,3 +1,3 @@
-main3: 
-	g++ -Ofast -o main3 main3.cpp -std=c++11
+ad2-s4550108-s4469925:	ad2-s4550108-s4469925.cpp 
+	g++ -Ofast -o ad2-s4550108-s4469925 ad2-s4550108-s4469925.cpp -std=c++11
 
