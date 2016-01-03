@@ -1,3 +1,8 @@
+/* 
+ * For the best practical results, please build the code 
+ * using the provided makefile.
+ */
+
 #include <iostream>
 #include <vector>
 
